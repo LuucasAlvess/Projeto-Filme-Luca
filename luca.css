@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #1249A4;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+    font-family: 'Inter', sans-serif;
+}
+
+@media(max-width: 650px){
+    .display img{width: 100%;height: 70vh;cursor: pointer;}
+    .nome-filme{text-align: center;color: #FFFFFF;font-weight: bold;}
+    .specifications{color: #FFFFFF;margin-top: 10px;}
+    .assessments{margin-top: 10px;}
+    .assessments img{width: 3vh;}
+    .play-button{margin-top: 10px;}
+    .play-button a{width: 15%;}
+    .saiba-mais a{color: #FFFFFF;display: flex;justify-content: center;margin-top: 10px;}
+    .informacoes-filme{flex-direction: column;display: flex;align-items: center;position: fixed;justify-content: center;width: 100%;}
+}

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+    font-family: 'Inter', sans-serif;
+}
+
+@media(max-width: 650px){
+    .cor-fundo{
+        background-color: #EEEEEE;
+    }
+    #header{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        
+    }
+    #header :nth-child(3){width: 60px;}
+
+    #banner-filme{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .play-banner{
+        position: absolute;
+        top: 245px;
+        left: 42%;
+        width: 12%;
+    }
+    .plataformas {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 24px 24px;
+    }
+    .plataformas :nth-child(1){font-weight: bold;}
+    .plataformas a{color: black;}
+
+    .container{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .container h4{
+        margin-top: 10px;
+    }
+
+    .play-icon{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .informacoes-filme{
+        display: flex;
+        align-items: center;
+    }
+    .avaliacao-icon{
+        margin-left: 10px;
+        align-items: center;
+        display: flex;
+    }
+    .filme-minuto{
+        
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: 12px;
+    }
+    .filme-minuto p{
+        margin-top: 15px;
+    }
+    .play-filme{
+       /* margin-left: 35%;
+       margin-top: -20px; */
+
+    }
+    .center-filme{
+        display: flex;
+        justify-content: center;
+    }
+    .estrela{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .footer-images{
+        padding: 6px 0;
+        background-color: #1249A4;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 52px;
+        position: fixed;
+        width: 100%;
+    }
+}
